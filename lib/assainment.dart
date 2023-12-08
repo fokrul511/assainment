@@ -52,7 +52,7 @@ class Student extends Person {
     print("Name: $name");
     print("Age: $age");
     print("Address: $address");
-    print("Role: Student");
+
     print("Average Score: ${calculateAverageScore()}");
     print("");
   }
@@ -83,7 +83,6 @@ class Teacher extends Person {
     print("Name: $name");
     print("Age: $age");
     print("Address: $address");
-    print("Role: Teacher");
     print("Courses Taught:");
     for (var course in coursesTaught) {
       print("- $course");
