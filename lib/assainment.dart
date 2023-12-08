@@ -47,7 +47,7 @@ class Student extends Person {
   // Override the displayRole() method
   @override
   void displayRole() {
-    print("Student Information:");
+    // print("Student Information:");
     super.displayRole();
     print("Name: $name");
     print("Age: $age");
@@ -78,7 +78,7 @@ class Teacher extends Person {
   // Override the displayRole() method
   @override
   void displayRole() {
-    print("Teacher Information:");
+    // print("Teacher Information:");
     super.displayRole();
     print("Name: $name");
     print("Age: $age");
